@@ -44,7 +44,7 @@ while [ $SECONDS -lt $end_time ]; do
     file_array=("${file_array[@]}")
     
     # Sleep for a random interval between 30 and 120 seconds
-    sleep_duration=$((RANDOM % 8 + 5))
+    sleep_duration=$((RANDOM % 4 + 2))
     sleep $sleep_duration
 done
 
